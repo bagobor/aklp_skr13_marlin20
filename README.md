@@ -3,7 +3,7 @@
 - based on Marlin 2.0.x release version
 - SKR 1.3 board with TMC2208 steeprs in UART mode
 - Bigtree TFT24 dualmode screen
-- inductive sensor for delta calibration and bed leveling
+- [Soon] inductive sensor for delta calibration and bed leveling
 
 
 # Marlin 3D Printer Firmware
