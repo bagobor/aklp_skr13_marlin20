@@ -1,9 +1,12 @@
 # Fork info:
 - firmware for Anycubic Kossel Linear Plus 3d printer
 - based on Marlin 2.0.x release version
-- SKR 1.3 board with TMC2208 steeprs in UART mode
-- Bigtree TFT24 dualmode screen
+- BigtreeTech SKR 1.3 board (https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3) with TMC2208 stepper drivers in UART mode
+- BigtreeTech TFT24 dualmode screen (https://github.com/bigtreetech/BIGTREETECH-TFT24-V1.1)
 - [Soon] inductive sensor for delta calibration and bed leveling
+
+# Changelog:
+02/25/20 Recalibrated PID values
 
 
 # Marlin 3D Printer Firmware
