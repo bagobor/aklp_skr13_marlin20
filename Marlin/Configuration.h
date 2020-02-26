@@ -616,9 +616,13 @@
   //#define DEFAULT_Ki 1.63
   //#define DEFAULT_Kd 76.48
   //UPD:
-  #define DEFAULT_Kp 12.67
-  #define DEFAULT_Ki 0.69
-  #define DEFAULT_Kd 57.92
+//   #define DEFAULT_Kp 12.67
+//   #define DEFAULT_Ki 0.69
+//   #define DEFAULT_Kd 57.92
+  //UPD2: recalibrated with FAN at 100%
+  #define DEFAULT_Kp 16.33
+  #define DEFAULT_Ki 1.09
+  #define DEFAULT_Kd 61.17
 
 #endif // PIDTEMP
 
@@ -676,9 +680,15 @@
     //#define DEFAULT_bedKp 374.03
     //#define DEFAULT_bedKi 72.47
     //#define DEFAULT_bedKd 482.59
-    #define DEFAULT_bedKp 388.30
-    #define DEFAULT_bedKi 77.58
-    #define DEFAULT_bedKd 1295.64
+//     #define DEFAULT_bedKp 388.30
+//     #define DEFAULT_bedKi 77.58
+//     #define DEFAULT_bedKd 1295.64
+
+//UPD: recalibrated with custom bed clips: https://www.thingiverse.com/thing:3857639
+  #define DEFAULT_bedKp 212.48
+  #define DEFAULT_bedKi 32.99
+  #define DEFAULT_bedKd 912.46
+
   #elif ANYCUBIC_KOSSEL_ENABLE_BED == 2
   // TODO get real PID values for Ultrabase Bed
     #define DEFAULT_bedKp 374.03
