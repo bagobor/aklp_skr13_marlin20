@@ -1136,7 +1136,8 @@
  */
 #if ANYCUBIC_PROBE_VERSION == 2
   // #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -16.8 }
-  #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -15.65 }
+  // #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -15.65 } //Stock bed
+  #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -15.80 } // upgraded bed clips: https://www.thingiverse.com/thing:3857639
 #elif ANYCUBIC_PROBE_VERSION == 1
   #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -19.0 }
 #elif ANYCUBIC_PROBE_VERSION == -1 //BlTouch
