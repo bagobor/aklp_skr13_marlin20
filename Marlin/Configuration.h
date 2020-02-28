@@ -155,7 +155,6 @@
 
   // Distance between bed and nozzle Z home position
   #define DELTA_HEIGHT 300.00             // (mm) Get this value from G33 auto calibrate
-  // #define DELTA_HEIGHT 320.00
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // Get these values from G33 auto calibrate
 
@@ -988,7 +987,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+// #define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -1173,7 +1172,7 @@
  * A total of 3 or more adds more slow probes, taking the average.
  */
 #define MULTIPLE_PROBING 3
-// #define EXTRA_PROBING    1
+//#define EXTRA_PROBING    1
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
@@ -1424,7 +1423,7 @@
  * Turn on with the command 'M111 S32'.
  * NOTE: Requires a lot of PROGMEM!
  */
-#define DEBUG_LEVELING_FEATURE
+// #define DEBUG_LEVELING_FEATURE
 
 #if ANY(MESH_BED_LEVELING, AUTO_BED_LEVELING_BILINEAR, AUTO_BED_LEVELING_UBL)
 // https: //www.reddit.com/r/3Dprinting/comments/69hlgj/awesome_new_feature_in_marlin_11_bed_level_fading/?st=j8p4ph42&sh=ca797160
@@ -1979,7 +1978,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-// #define REPRAP_DISCOUNT_SMART_CONTROLLER
+//#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
@@ -2466,8 +2465,8 @@
 // If the servo can't reach the requested position, increase it.
 #define SERVO_DELAY { 300 }
 
-       // Only power servos during movement, otherwise leave off to prevent jitter
-       //#define DEACTIVATE_SERVOS_AFTER_MOVE
+// Only power servos during movement, otherwise leave off to prevent jitter
+//#define DEACTIVATE_SERVOS_AFTER_MOVE
 
-       // Allow servo angle to be edited and saved to EEPROM
-       //#define EDITABLE_SERVO_ANGLES
+// Allow servo angle to be edited and saved to EEPROM
+//#define EDITABLE_SERVO_ANGLES
